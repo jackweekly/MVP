@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Rust / Cargo / Tauri
+target/
+**/target/
+frontend/src-tauri/target/
+vrp_solver/target/
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled libs
+*.a
+*.rlib
+*.dylib
+*.so
+*.dll
